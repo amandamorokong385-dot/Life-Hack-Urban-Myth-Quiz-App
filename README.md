@@ -25,12 +25,18 @@ text
 app/src/main/ java/com/example/lifehackmyth/
 
 MainActivity.kt       -> First screen, welcome page
-QuizActivity.kt       -> Quiz logic, questions, score counting
+
+QuizActivity.kt       -> Quiz logic, questions, score 
+
 ScoreActivity.kt      -> Shows final score and personalized feedback
+
 Question.kt           -> Data class for questions
+
  res/layout/
 activity_main.xml     -> Purple welcome screen
+
 activity_quiz.xml     -> Question + TRUE / FALSE buttons
+
 activity_score.xml    -> Final score screen
 
 AndroidManifest.xml            -> Registers all activities
