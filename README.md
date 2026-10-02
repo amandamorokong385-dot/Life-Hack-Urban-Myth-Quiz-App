@@ -23,16 +23,15 @@ Automated Build: GitHub Actions
 text
 app/src/main/
  java/com/example/lifehackmyth/
-│   ├── MainActivity.kt       -> First screen, welcome page
-│   ├── QuizActivity.kt       -> Quiz logic, questions, score counting
-│   ├── ScoreActivity.kt      -> Shows final score and personalized feedback
-│   └── Question.kt           -> Data class for questions
-│
+MainActivity.kt       -> First screen, welcome page
+QuizActivity.kt       -> Quiz logic, questions, score counting
+ScoreActivity.kt      -> Shows final score and personalized feedback
+Question.kt           -> Data class for questions
  res/layout/
-│   ├── activity_main.xml     -> Purple welcome screen
-│   ├── activity_quiz.xml     -> Question + TRUE / FALSE buttons
-│   └── activity_score.xml    -> Final score screen
-│
+activity_main.xml     -> Purple welcome screen
+activity_quiz.xml     -> Question + TRUE / FALSE buttons
+activity_score.xml    -> Final score screen
+
 AndroidManifest.xml            -> Registers all activities
 
 ## 4. How the App Works:
@@ -63,12 +62,13 @@ All activities (QuizActivity, ScoreActivity) are registered here to ensure Andro
 • Conditional Logic (if/else): Used to check correct answers and calculate final scores.
 • Data Classes: Used to structure the quiz questions neatly.
 • Logging: Log.d() statements are included throughout the code to track app lifecycle and user interactions for debugging.
-6. Version Control and Automated Testing (GitHub & GitHub Actions)
+
+## 6. Version Control and Automated Testing (GitHub & GitHub Actions)
 • GitHub Repository: All source code is committed and pushed regularly to this repository.
 • GitHub Actions: A workflow (build.yml) is set up in the .github/workflows/ directory. This automates the build process, ensuring the app compiles correctly in a clean environment every time code is pushed to the main branch.
 
 ## 7. Video Presentation
-A comprehensive video presentation showcasing the app's features, code structure, and functionality can be viewed here:
+A video presentation showcasing the app's features, code structure, and functionality can be viewed here:
 https://youtube.com/shorts/FFR8JNvO9zQ?si=_kY1DiYIbY9s7_NY
  
 ## 8. Screenshots 
