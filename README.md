@@ -19,27 +19,24 @@ Version Control: Git & GitHub
 Automated Build: GitHub Actions
 
 ## 3. Project Structure
-
 text
+app/src/main/
+ java/com/example/lifehackmyth/
+   MainActivity.kt   -      First screen, welcome page
+   QuizActivity.kt   -      Quiz Logic, questions, score counting
+   ScoreActivity.kt   -      Shows final Score and personalised feedback
+   Question.kt        -      Data class for questions
 
-app/src/main/ java/com/example/lifehackmyth/
+res/layout/
+ activity_main.xml    - PURPLE welcome screen
+ activity_quiz.xml    - Questions + TRUE/FALSE buttons
+ acrivity_score.xml   - Final score screen
 
-MainActivity.kt       -> First screen, welcome page
+AndroidManifes.xml    - Registers all activities
+ 
+   
 
-QuizActivity.kt       -> Quiz logic, questions, score 
 
-ScoreActivity.kt      -> Shows final score and personalized feedback
-
-Question.kt           -> Data class for questions
-
- res/layout/
-activity_main.xml     -> Purple welcome screen
-
-activity_quiz.xml     -> Question + TRUE / FALSE buttons
-
-activity_score.xml    -> Final score screen
-
-AndroidManifest.xml            -> Registers all activities
 
 ## 4. How the App Works:
 a) Welcome Screen (activity_main.xml + MainActivity.kt)
