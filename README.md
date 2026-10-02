@@ -21,8 +21,9 @@ Automated Build: GitHub Actions
 ## 3. Project Structure
 
 text
-app/src/main/
- java/com/example/lifehackmyth/
+
+app/src/main/ java/com/example/lifehackmyth/
+
 MainActivity.kt       -> First screen, welcome page
 QuizActivity.kt       -> Quiz logic, questions, score counting
 ScoreActivity.kt      -> Shows final score and personalized feedback
