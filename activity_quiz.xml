@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Question will appear here" />
+
+    <Button
+        android:id="@+id/btnTrue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRUE"
+        android:layout_marginTop="30dp" />
+
+
+    <Button
+        android:id="@+id/btnFalse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FALSE"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
